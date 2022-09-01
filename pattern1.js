@@ -95,3 +95,26 @@ for(i=0;i<row;i++)
     }
     console.log(strem)
 }
+
+console.log();
+console.log();
+
+//Opposite Pyramid
+var i,j,row=5;
+const st1=" "
+const st2="* "
+
+for(i=0;i<row;i++)
+{
+    st=""
+    for(j=0;j<i;j++)
+    {
+        st=st+st1;
+    }
+    for(j=row-i;j>=1;j--)
+    {
+        st=st+st2;
+    }
+    
+    console.log(st);
+}
