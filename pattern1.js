@@ -118,3 +118,8 @@ for(i=0;i<row;i++)
     
     console.log(st);
 }
+
+console.log();
+console.log();
+
+//Numeric Pattern
